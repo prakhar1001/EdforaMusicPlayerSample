@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Edfora</string>
+
+    <string name="font_family_open_sans_semi_bold">OpenSansSemiBold</string>
+    <string name="font_family_open_sans_semi_bold_italic">OpenSansSemiBoldItalic</string>
+    <string name="previous">prev</string>
+    <string name="next">next</string>
+    <string name="pagecount">1</string>
+    <string name="content_title">File Downloader</string>
+    <string name="download_ticker">Download Ticker</string>
+
+</resources>

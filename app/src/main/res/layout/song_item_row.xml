@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/songtitlebackground"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:id="@+id/cover_pic"
+                    android:layout_margin="5dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+
+            <prakhar.com.edforamusicsample.CustomView.CustomFontTextView
+                    android:id="@+id/songtitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.80"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    app:fontStyleTextView="@string/font_family_open_sans_semi_bold"/>
+
+
+            <ImageView
+                    android:id="@+id/play_song"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_play_arrow_black_24dp"/>
+
+
+            <ImageView
+                    android:id="@+id/download_song"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_file_download_black_28dp"/>
+
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#aaaaaa"></View>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+            <prakhar.com.edforamusicsample.CustomView.CustomFontTextView
+                    android:id="@+id/artist"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.95"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    app:fontStyleTextView="@string/font_family_open_sans_semi_bold_italic"/>
+
+
+
+            <ImageView
+                    android:id="@+id/favorite_song"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/favourite_bg_selector"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
+
+
